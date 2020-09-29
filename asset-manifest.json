@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Legate-Quotes/static/css/main.bcaf1831.chunk.css",
+    "main.css": "/Legate-Quotes/static/css/main.c31bc157.chunk.css",
     "main.js": "/Legate-Quotes/static/js/main.64056b99.chunk.js",
     "main.js.map": "/Legate-Quotes/static/js/main.64056b99.chunk.js.map",
     "runtime-main.js": "/Legate-Quotes/static/js/runtime-main.e74bc408.js",
@@ -8,15 +8,15 @@
     "static/js/2.31a3e4b6.chunk.js": "/Legate-Quotes/static/js/2.31a3e4b6.chunk.js",
     "static/js/2.31a3e4b6.chunk.js.map": "/Legate-Quotes/static/js/2.31a3e4b6.chunk.js.map",
     "index.html": "/Legate-Quotes/index.html",
-    "precache-manifest.fdb890b8f52dad5840bd97ebc5150176.js": "/Legate-Quotes/precache-manifest.fdb890b8f52dad5840bd97ebc5150176.js",
+    "precache-manifest.cb5cf6e6fd91a2ce0ebbdf9e25978a4f.js": "/Legate-Quotes/precache-manifest.cb5cf6e6fd91a2ce0ebbdf9e25978a4f.js",
     "service-worker.js": "/Legate-Quotes/service-worker.js",
-    "static/css/main.bcaf1831.chunk.css.map": "/Legate-Quotes/static/css/main.bcaf1831.chunk.css.map",
+    "static/css/main.c31bc157.chunk.css.map": "/Legate-Quotes/static/css/main.c31bc157.chunk.css.map",
     "static/js/2.31a3e4b6.chunk.js.LICENSE.txt": "/Legate-Quotes/static/js/2.31a3e4b6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e74bc408.js",
     "static/js/2.31a3e4b6.chunk.js",
-    "static/css/main.bcaf1831.chunk.css",
+    "static/css/main.c31bc157.chunk.css",
     "static/js/main.64056b99.chunk.js"
   ]
 }
