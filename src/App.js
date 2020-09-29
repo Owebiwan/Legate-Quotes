@@ -36,7 +36,7 @@ class App extends React.Component {
   }
   
     render(){
-    var onUse = this.state.photo;
+    var onUse = process.env.PUBLIC_URL + "/Quote-photos/"+ this.state.photo + '.png';
     var quoteText = this.state.quote;
     var quoteAuthor = this.state.author;
     var animeT = {color: this.state.chrome,
@@ -45,7 +45,7 @@ class App extends React.Component {
     var animeP = {backgroundColor: this.state.chrome,
       transition: 'color 2.5s, opacity 2.5s',
   }
-    var bodyP = {backgroundImage: `url(/Quote-photos/${onUse}.png)`,
+    var bodyP = {backgroundImage: `url(${onUse})`,
               transition: 'all linear 2.5s',
               height: '100vh',
               width: '100vw'}
