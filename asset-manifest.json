@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Legate-Quotes/static/css/main.bcaf1831.chunk.css",
+    "main.js": "/Legate-Quotes/static/js/main.64056b99.chunk.js",
+    "main.js.map": "/Legate-Quotes/static/js/main.64056b99.chunk.js.map",
+    "runtime-main.js": "/Legate-Quotes/static/js/runtime-main.e74bc408.js",
+    "runtime-main.js.map": "/Legate-Quotes/static/js/runtime-main.e74bc408.js.map",
+    "static/js/2.31a3e4b6.chunk.js": "/Legate-Quotes/static/js/2.31a3e4b6.chunk.js",
+    "static/js/2.31a3e4b6.chunk.js.map": "/Legate-Quotes/static/js/2.31a3e4b6.chunk.js.map",
+    "index.html": "/Legate-Quotes/index.html",
+    "precache-manifest.fdb890b8f52dad5840bd97ebc5150176.js": "/Legate-Quotes/precache-manifest.fdb890b8f52dad5840bd97ebc5150176.js",
+    "service-worker.js": "/Legate-Quotes/service-worker.js",
+    "static/css/main.bcaf1831.chunk.css.map": "/Legate-Quotes/static/css/main.bcaf1831.chunk.css.map",
+    "static/js/2.31a3e4b6.chunk.js.LICENSE.txt": "/Legate-Quotes/static/js/2.31a3e4b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e74bc408.js",
+    "static/js/2.31a3e4b6.chunk.js",
+    "static/css/main.bcaf1831.chunk.css",
+    "static/js/main.64056b99.chunk.js"
+  ]
+}
