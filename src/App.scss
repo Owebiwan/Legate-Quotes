@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,16 +11,16 @@
   vertical-align: baseline;
 }
 a {
-  font-weight:500;
-  text-decoration:none;
+  font-weight: 500;
+  text-decoration: none;
   color: inherit;
 }
 
 div {
-  position:relative;
+  position: relative;
   z-index: 2;
 }
-body{
+body {
   background-color: #242320;
 }
 #wrapper {
@@ -28,8 +28,8 @@ body{
   background-color: #242320;
   background-size: cover;
   color: #333;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:380;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 380;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,99 +38,110 @@ body{
 }
 
 .footer {
-  width:100%;
-  text-align:center;
-  display:block;
+  width: 100%;
+  text-align: center;
+  display: block;
   position: absolute;
-  margin:80vh auto 2vh auto;
-  font-size:0.9em;
-  color:#fff;
-  a {
-    font-weight:500;
-    text-decoration:none;
-    color:#fff;
+  margin: 80vh auto 2vh auto;
+  font-size: 0.9em;
+  color: #fff;
+  button {
+    padding: 0.5em;
+    font-size: 1.2em;
+    background-color: transparent;
+    font-weight: 100;
+    font-size: 1.3em;
+    border: 2px solid;
+    border-color: #fff;
+    border-radius: 10px;
+    color: #fff;
+  }
+  button:hover {
+    background-color: #f39c12;
+    font-weight: 300;
+    border: none;
+    color: #333;
+    cursor: pointer;
   }
 }
 #quote-box {
-  border-radius:3px;
-  position:relative;
+  border-radius: 3px;
+  position: relative;
   margin-top: 0vh;
-  margin-left:60vw;
-  margin-bottom:50vh;
-  width:20vw;
-  padding:3vh 2vw;
-  display:table;
-  background-color:#242320;
+  margin-left: 60vw;
+  margin-bottom: 50vh;
+  width: 20vw;
+  padding: 3vh 2vw;
+  display: table;
+  background-color: #242320;
   .quote-text {
-    i{
-      font-size:1.0em;
+    i {
+      font-size: 1em;
       margin-right: 0.4em;
     }
-    text-align:center;
+    text-align: center;
     width: inherit;
-    height:auto;
-    clear:both;
-    font-weight:500;
-    font-size:1.3em;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.3em;
   }
   .quote-author {
     width: inherit;
-    height:auto;
-    clear:both;
-    padding-top:20px;
-    font-family: 'Tulpen One', cursive;
-    font-size:1.6em; 
-    text-align:right;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-family: "Tulpen One", cursive;
+    font-size: 1.6em;
+    text-align: right;
   }
   .buttons {
     width: auto;
-    margin:auto;
-    display:block;
+    margin: auto;
+    display: block;
     .button {
-      height:38px;
-      border:none;
-      border-radius:3px;
-      color:#242320;
-      background-color:#333;
-      outline:none;
-      font-size:0.85em;
+      height: 38px;
+      border: none;
+      border-radius: 3px;
+      color: #242320;
+      background-color: #333;
+      outline: none;
+      font-size: 0.85em;
       padding: 8px 18px 6px 18px;
-      margin-top:30px;
-      opacity:1;
-      cursor:pointer;
+      margin-top: 30px;
+      opacity: 1;
+      cursor: pointer;
       &:hover {
-        opacity:0.9;
+        opacity: 0.9;
         color: #fff;
       }
       &#tweet-quote {
-        float:left;
-        padding:0px;
-        padding-top:8px;
-        text-align:center;
-        font-size:1.2em;
-        margin-right:5px;
-        width:40px;
+        float: left;
+        padding: 0px;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-right: 5px;
+        width: 40px;
       }
       &#new-quote {
-        float:right;
+        float: right;
       }
     }
   }
 }
-@media only screen and (max-width: 991px){
-  #quote-box{
-    width:70vw;
+@media only screen and (max-width: 991px) {
+  #quote-box {
+    width: 70vw;
     margin: 0;
     margin-top: 1px;
     margin-left: 0;
     margin-bottom: 0;
-
   }
   .buttons {
     width: auto;
   }
-  .footer{
-    margin: 60vh auto 1vh auto;
+  .footer {
+    margin: 50vh auto 5vh auto;
   }
-
 }
