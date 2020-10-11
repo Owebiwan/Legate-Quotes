@@ -98,7 +98,9 @@ class App extends React.Component {
             target="blank"
             href="https://linkedin.com/in/godwin-obamina"
           >
-            <button>by Beewan</button>
+            <button>
+              by Beewan <i className="fa fa-linkedin-square"></i>
+            </button>
           </a>
         </div>
       </div>

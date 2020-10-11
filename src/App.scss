@@ -58,10 +58,12 @@ body {
   }
   button:hover {
     background-color: #f39c12;
-    font-weight: 300;
+    font-weight: 200;
     border: none;
     color: #333;
     cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #f39c12, 0 0 40px #f39c12, 0 0 80px #f39c12;
   }
 }
 #quote-box {
