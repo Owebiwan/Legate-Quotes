@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f6e0b39e081700f674e4748de696af8",
+    "revision": "3df05de17f0c687a4271b8910a7de258",
     "url": "/Legate-Quotes/index.html"
   },
   {
-    "revision": "c6f39ecae53581b89bb0",
-    "url": "/Legate-Quotes/static/css/main.30ad554a.chunk.css"
+    "revision": "8db4d163e047017af380",
+    "url": "/Legate-Quotes/static/css/main.c656f883.chunk.css"
   },
   {
     "revision": "371065bbb16b8c9a2b52",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Legate-Quotes/static/js/2.31a3e4b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6f39ecae53581b89bb0",
+    "revision": "8db4d163e047017af380",
     "url": "/Legate-Quotes/static/js/main.8469c52e.chunk.js"
   },
   {
